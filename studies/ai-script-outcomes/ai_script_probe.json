@@ -1,0 +1,4595 @@
+{
+ "tranco_list": "ZJQ6G (2026-09-02)",
+ "per_category": {
+  "ecommerce": {
+   "n": 40,
+   "data": 12,
+   "blocked": 25,
+   "silent_blank": 3,
+   "api_data": 26,
+   "api_attempted": 33,
+   "recovered_from_blocked": 19,
+   "wrong_fields": 6
+  },
+  "saas": {
+   "n": 40,
+   "data": 38,
+   "blocked": 1,
+   "silent_blank": 1,
+   "api_data": 4,
+   "api_attempted": 4,
+   "recovered_from_blocked": 1,
+   "wrong_fields": 1
+  },
+  "news": {
+   "n": 40,
+   "data": 25,
+   "blocked": 13,
+   "silent_blank": 2,
+   "api_data": 30,
+   "api_attempted": 31,
+   "recovered_from_blocked": 12,
+   "wrong_fields": 2
+  },
+  "marketplaces": {
+   "n": 40,
+   "data": 10,
+   "blocked": 29,
+   "silent_blank": 1,
+   "api_data": 27,
+   "api_attempted": 32,
+   "recovered_from_blocked": 24,
+   "wrong_fields": 1
+  },
+  "jobs": {
+   "n": 40,
+   "data": 23,
+   "blocked": 16,
+   "silent_blank": 1,
+   "api_data": 12,
+   "api_attempted": 18,
+   "recovered_from_blocked": 10,
+   "wrong_fields": 2
+  }
+ },
+ "totals": {
+  "n": 200,
+  "data": 108,
+  "blocked": 84,
+  "silent_blank": 8,
+  "api_data": 99,
+  "api_attempted": 118,
+  "recovered_from_blocked": 66,
+  "wrong_fields": 12
+ },
+ "rows": [
+  {
+   "category": "ecommerce",
+   "domain": "amazon.com",
+   "tranco_rank": 26,
+   "url": "https://amazon.com/",
+   "ai": {
+    "http": null,
+    "error": "ConnectTimeout",
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "",
+    "desc": null,
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "walmart.com",
+   "tranco_rank": 368,
+   "url": "https://walmart.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Walmart | Save Money. Live better.",
+    "desc": "Shop Walmart.com today for Every Day Low Prices. Join Walmart+ for unlimited free delivery from your store & free shipping with no order minimum. Start your free 30-day trial now!",
+    "h1_count": 1,
+    "images": 13,
+    "missing_alt": 1,
+    "links": 54
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "ebay.com",
+   "tranco_rank": 237,
+   "url": "https://ebay.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Error Page | eBay",
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "target.com",
+   "tranco_rank": 582,
+   "url": "https://target.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Target : Expect More. Pay Less.",
+    "desc": "Shop Target online and in-store for everything from groceries and essentials to clothing and electronics. Choose contactless pickup or delivery today.",
+    "h1_count": 1,
+    "images": 44,
+    "missing_alt": 43,
+    "links": 67
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "etsy.com",
+   "tranco_rank": 232,
+   "url": "https://etsy.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "etsy.com",
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "bestbuy.com",
+   "tranco_rank": 756,
+   "url": "https://bestbuy.com/",
+   "ai": {
+    "http": null,
+    "error": "ReadTimeout",
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": null,
+    "desc": null,
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "homedepot.com",
+   "tranco_rank": 753,
+   "url": "https://homedepot.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "The Home Depot",
+    "desc": "Shop online for all your home improvement needs: appliances, bathroom decorating ideas, kitchen remodeling, patio furniture, power tools, bbq grills, carpeting, lumber, concrete, lighting, ceiling fans and more at The Home Depot.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "costco.com",
+   "tranco_rank": 1009,
+   "url": "https://costco.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": null,
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "lowes.com",
+   "tranco_rank": 955,
+   "url": "https://lowes.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Access Denied",
+    "desc": null,
+    "h1_count": 1,
+    "images": 0,
+    "missing_alt": 0,
+    "links": 0
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "Lowe’s Home Improvement",
+    "desc": "Discover the best Labor Day sales at Lowe’s. Shop deals on appliances, patio, grills, lawn and garden, and more in store or online at Lowes.com.",
+    "h1_count": 0
+   },
+   "silent_fields": [
+    "description"
+   ],
+   "outcome": "silent_blank"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "wayfair.com",
+   "tranco_rank": 2509,
+   "url": "https://wayfair.com/",
+   "ai": {
+    "http": 429,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Access to this page has been denied",
+    "desc": "px-captcha",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "nike.com",
+   "tranco_rank": 652,
+   "url": "https://nike.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Nike. Just Do It. Nike PL",
+    "desc": "Innowacyjne produkty i wyjątkowe usługi Nike inspirują sportowców i sportowczynie.",
+    "h1_count": 1,
+    "images": 18,
+    "missing_alt": 0,
+    "links": 437
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "ikea.com",
+   "tranco_rank": 623,
+   "url": "https://ikea.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 400,
+    "title": null,
+    "desc": null,
+    "h1_count": null
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "chewy.com",
+   "tranco_rank": 4494,
+   "url": "https://chewy.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Pet Food, Products and Supplies at Low Prices - Free Shipping",
+    "desc": "Shop Chewy for the best pet supplies ranging from pet food, toys and treats to litter, aquariums, and pet supplements plus so much more! If you have a pet-or soon will-you've come to the right place. Shop for all of your pet needs at Chewy's online pet store. FREE shipping on orders $49+, low prices and the BEST customer service!",
+    "h1_count": 1,
+    "images": 79,
+    "missing_alt": 42,
+    "links": 388
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "macys.com",
+   "tranco_rank": 3391,
+   "url": "https://macys.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Access Denied - Macy's",
+    "desc": "Access denied 403",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "kohls.com",
+   "tranco_rank": 1055,
+   "url": "https://kohls.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Access Denied",
+    "desc": null,
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "sephora.com",
+   "tranco_rank": 4653,
+   "url": "https://sephora.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Makeup, Skincare, Fragrance, Hair & Beauty Products | Sephora",
+    "desc": "Discover the latest in beauty at Sephora! Explore an unrivaled selection of makeup, skincare, hair, fragrance & more from classic & emerging brands.",
+    "h1_count": 1,
+    "images": 5,
+    "missing_alt": 2,
+    "links": 11
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "ulta.com",
+   "tranco_rank": 7270,
+   "url": "https://ulta.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Ulta Beauty | Makeup, Skin Care, Fragrance, Hair Care & Beauty Products",
+    "desc": "Shop top beauty brands & new arrivals at Ulta Beauty. Join Ulta Beauty Rewards. Free store pickup & curbside available.",
+    "h1_count": 0,
+    "images": 100,
+    "missing_alt": 80,
+    "links": 627
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "Ulta Beauty | Makeup, Skin Care, Fragrance, Hair Care & Beauty Products",
+    "desc": "Shop top beauty brands & new arrivals at Ulta Beauty. Join Ulta Beauty Rewards. Free store pickup & curbside available.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "newegg.com",
+   "tranco_rank": 5393,
+   "url": "https://newegg.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "PC Parts, Computers, Workstations & AI PCs | Newegg",
+    "desc": "Build your next PC or find ready-made computers, workstations & AI solutions at Newegg. Millions of parts, competitive prices & fast shipping.",
+    "h1_count": 0,
+    "images": 86,
+    "missing_alt": 0,
+    "links": 210
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "PC Parts, Computers, Workstations & AI PCs | Newegg",
+    "desc": "Build your next PC or find ready-made computers, workstations & AI solutions at Newegg. Millions of parts, competitive prices & fast shipping.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "asos.com",
+   "tranco_rank": 3353,
+   "url": "https://asos.com/",
+   "ai": {
+    "http": null,
+    "error": "ReadTimeout",
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "ASOS | Online Shopping for the Latest Clothes & Fashion",
+    "desc": "Discover the latest fashion trends with ASOS. Shop the new collection of clothing, footwear, accessories, beauty products and more. Order today from ASOS.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "zara.com",
+   "tranco_rank": 3259,
+   "url": "https://zara.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "ZARA Official Website",
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "shein.com",
+   "tranco_rank": 507,
+   "url": "https://shein.com/",
+   "ai": {
+    "http": null,
+    "error": "ReadTimeout",
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Women's Clothing, Women Fashion Sale | SHEIN USA",
+    "desc": "Exclusive discounts and the latest trends at SHEIN — Women's Dresses, Tops, Bottoms, Shoes, Plus Size and more. ✓ Free Shipping ✓ App only. 15% Off With No Min.+✓Easy returns ✓ New Arrivals Dropped Daily ✓",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "temu.com",
+   "tranco_rank": 427,
+   "url": "https://temu.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": 0,
+    "images": 0,
+    "missing_alt": 0,
+    "links": 0
+   },
+   "local": "no_title",
+   "api": {
+    "http": 200,
+    "title": "Temu | Explore the Latest Clothing, Beauty, Home, Jewelry & More",
+    "desc": "Make Temu your one-stop destination for the latest fashion products, cosmetics & more. Free shipping on items shipped from Temu. Free returns within 90 days. Shop on Temu and start saving.",
+    "h1_count": 0
+   },
+   "silent_fields": [
+    "title",
+    "description"
+   ],
+   "outcome": "silent_blank"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "aliexpress.com",
+   "tranco_rank": 402,
+   "url": "https://aliexpress.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": 0,
+    "images": 0,
+    "missing_alt": 0,
+    "links": 0
+   },
+   "local": "no_title",
+   "api": {
+    "http": 200,
+    "title": "AliExpress - Affordable Chinese Stores & Free Shipping - Online Shopping",
+    "desc": "Passion shouldn't cost a fortune. On AliExpress, shop online for over 111 million affordable products from China on Fashion, Men's and Women's Clothing, Electronics, Toys, Tools, Home & Garden on our marketplace  with free shipping! Login app for coupons.",
+    "h1_count": 1
+   },
+   "silent_fields": [
+    "title",
+    "description",
+    "h1"
+   ],
+   "outcome": "silent_blank"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "wish.com",
+   "tranco_rank": 14164,
+   "url": "https://wish.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Wish | Shop and Save",
+    "desc": "Discover affordable items for your home and life needs. Enjoy our money back guarantee, frequent discounts, flat rate shipping (select markets), and more.",
+    "h1_count": 0,
+    "images": 0,
+    "missing_alt": 0,
+    "links": 0
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "Wish | Shop and Save",
+    "desc": "Discover affordable items for your home and life needs. Enjoy our money back guarantee, frequent discounts, flat rate shipping (select markets), and more.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "overstock.com",
+   "tranco_rank": 14048,
+   "url": "https://overstock.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Shop Overstock for Furniture, Rugs & Stylish Outdoor Living.",
+    "desc": "Let Overstock.com help you discover designer brands and home goods at the lowest prices online. See for yourself why shoppers love our selection and award-winning customer service.",
+    "h1_count": 0,
+    "images": 66,
+    "missing_alt": 16,
+    "links": 77
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "Shop Overstock for Furniture, Rugs & Stylish Outdoor Living.",
+    "desc": "Let Overstock.com help you discover designer brands and home goods at the lowest prices online. See for yourself why shoppers love our selection and award-winning customer service.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "nordstrom.com",
+   "tranco_rank": 3734,
+   "url": "https://nordstrom.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": 0,
+    "images": 0,
+    "missing_alt": 0,
+    "links": 0
+   },
+   "local": "no_title",
+   "api": {
+    "http": 200,
+    "title": "",
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "gap.com",
+   "tranco_rank": 4124,
+   "url": "https://gap.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Gap",
+    "desc": "Gap Franchise",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "adidas.com",
+   "tranco_rank": 2921,
+   "url": "https://adidas.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "adidas",
+    "desc": null,
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "underarmour.com",
+   "tranco_rank": 7879,
+   "url": "https://underarmour.com/",
+   "ai": {
+    "http": 418,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Under Armour® Official Store | FREE Shipping Available",
+    "desc": "Under Armour builds game-changing sportswear, athletic shirts, shoes and more. FREE SHIPPING available and FREE returns on workout clothes, shoes, and gear.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "rei.com",
+   "tranco_rank": 5314,
+   "url": "https://rei.com/",
+   "ai": {
+    "http": null,
+    "error": "ReadTimeout",
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "REI: A Life Outdoors is a Life Well Lived | REI Co-op",
+    "desc": "Top-brand gear, clothing—and outdoor adventures! Plus rentals, classes, events, expert advice and more. Visit REI Co-op online and in-store.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "staples.com",
+   "tranco_rank": 8509,
+   "url": "https://staples.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Staples® Official Online Store",
+    "desc": "Staples offers free next-day delivery when you spend $35+ on office supplies & furniture, ink, printing services, computers, & promotional products for business.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "petco.com",
+   "tranco_rank": 7833,
+   "url": "https://petco.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "petco.com",
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "michaels.com",
+   "tranco_rank": 5922,
+   "url": "https://michaels.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Arts & Crafts, Frames, Seasonal Décor | DIY & Inspiration | Michaels",
+    "desc": "Shop the Michaels Arts and Crafts Store for the best selection of art supplies, crafting materials, and creative inspiration.",
+    "h1_count": 2
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "dickssportinggoods.com",
+   "tranco_rank": 4693,
+   "url": "https://dickssportinggoods.com/",
+   "ai": {
+    "http": 451,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": null,
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "carvana.com",
+   "tranco_rank": 6793,
+   "url": "https://carvana.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 400,
+    "title": null,
+    "desc": null,
+    "h1_count": null
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "autozone.com",
+   "tranco_rank": 8926,
+   "url": "https://autozone.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "autozone.com",
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "advanceautoparts.com",
+   "tranco_rank": 19821,
+   "url": "https://advanceautoparts.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Advance Auto Parts: Car, Engine, Batteries, Brakes, Replacement, Performance & Accessories",
+    "desc": "Advance Auto Parts is your source for quality auto parts, advice and accessories. View car care tips, shop online for home delivery, or pick up in one of our 4000 convenient store locations in 30 minutes or less.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "sharkninja.com",
+   "tranco_rank": 20422,
+   "url": "https://sharkninja.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "SharkNinja | Kitchen Appliances, Vacuums & Beauty",
+    "desc": "Shop Shark and Ninja products: vacuums, air fryers, hair dryers, red light masks & more. Free shipping on $99+ orders. Innovative products for every room.",
+    "h1_count": 1,
+    "images": 82,
+    "missing_alt": 1,
+    "links": 441
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "dyson.com",
+   "tranco_rank": 13102,
+   "url": "https://dyson.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Dyson Polska | Sklep Dyson | Dyson.pl",
+    "desc": "Oficjalny e-sklep twórców technologii Dyson. Odkryj ulubione produkty i zamów z darmową dostawą do domu. Gwarancja najlepszej ceny i bezpieczne płatności. Kup bezpośrednio.",
+    "h1_count": 1,
+    "images": 34,
+    "missing_alt": 7,
+    "links": 142
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "ecommerce",
+   "domain": "samsung.com",
+   "tranco_rank": 94,
+   "url": "https://samsung.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Samsung US | Mobile | TV | Home Electronics | Home Appliances | Samsung US",
+    "desc": "Discover the latest in electronic & smart appliance technology with Samsung. Find the next big thing from smartphones & tablets to laptops & tvs & more.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "saas",
+   "domain": "salesforce.com",
+   "tranco_rank": 320,
+   "url": "https://salesforce.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Salesforce: The #1 Agentic AI CRM | Salesforce EU",
+    "desc": "Salesforce is the #1 Agentic AI CRM, helping companies become Agentic Enterprises where humans and agents drive success together through a unified AI, data, and Customer 360 platform.",
+    "h1_count": 1,
+    "images": 112,
+    "missing_alt": 64,
+    "links": 584
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "hubspot.com",
+   "tranco_rank": 249,
+   "url": "https://hubspot.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "HubSpot | Software & Tools for your Business - Homepage",
+    "desc": "HubSpot's customer platform includes all the marketing, sales, customer service, and CRM software you need to grow your business.",
+    "h1_count": 1,
+    "images": 84,
+    "missing_alt": 14,
+    "links": 232
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "atlassian.com",
+   "tranco_rank": 611,
+   "url": "https://atlassian.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Collaboration software for software, IT and business teams | Atlassian",
+    "desc": "Atlassian's team collaboration software like Jira, Confluence and Trello help teams organize, discuss, and complete shared work.",
+    "h1_count": 1,
+    "images": 57,
+    "missing_alt": 38,
+    "links": 338
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "slack.com",
+   "tranco_rank": 351,
+   "url": "https://slack.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Slack | AI Work Platform & Productivity Tools",
+    "desc": "Boost productivity and save time with Slack‌ — ‌the AI work platform for managing projects, automating workflows, and connecting teams securely. Start working smarter today.",
+    "h1_count": 1,
+    "images": 91,
+    "missing_alt": 37,
+    "links": 296
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "zoom.us",
+   "tranco_rank": 77,
+   "url": "https://zoom.us/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "One platform to connect | Zoom",
+    "desc": "Modernize workflows with Zoom's trusted collaboration tools: including video meetings, Zoom Chat, VoIP phone, webinars, whiteboard, contact center, and events.",
+    "h1_count": 1,
+    "images": 112,
+    "missing_alt": 16,
+    "links": 359
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "notion.so",
+   "tranco_rank": 2093,
+   "url": "https://notion.so/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "The AI workspace that works for you. | Notion",
+    "desc": "Build Custom Agents, search across all your apps, and automate busywork. The AI workspace where teams get more done, faster.",
+    "h1_count": 1,
+    "images": 58,
+    "missing_alt": 52,
+    "links": 106
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "figma.com",
+   "tranco_rank": 859,
+   "url": "https://figma.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Figma: The collaborative canvas for design, code, and AI",
+    "desc": "Figma is the canvas where design, code, and AI come together. From first idea to shipped product — go from concept to production with your whole team, in one place.",
+    "h1_count": 1,
+    "images": 92,
+    "missing_alt": 6,
+    "links": 148
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "asana.com",
+   "tranco_rank": 2290,
+   "url": "https://asana.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Work & Project Management for Human-Agent Teams • Asana",
+    "desc": "Work management software for teams and AI agents. Plan, automate, and execute critical workflows together.",
+    "h1_count": 2,
+    "images": 215,
+    "missing_alt": 73,
+    "links": 210
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "monday.com",
+   "tranco_rank": 3253,
+   "url": "https://monday.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "The AI Work Platform for People & Agents | monday.com",
+    "desc": "Get more work done with AI agents that work side by side with your people. Execute, manage, and operate together on one AI work platform to drive business results.",
+    "h1_count": 2,
+    "images": 388,
+    "missing_alt": 306,
+    "links": 300
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "airtable.com",
+   "tranco_rank": 2944,
+   "url": "https://airtable.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Airtable: Build Enterprise-ready AI Workflows, Apps & Agents | Airtable",
+    "desc": "500,000+ brands use Airtable to enable real-time collaboration, automate repetitive tasks & manual work, and streamline business processes in minutes. Join them.",
+    "h1_count": 1,
+    "images": 70,
+    "missing_alt": 31,
+    "links": 177
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "dropbox.com",
+   "tranco_rank": 140,
+   "url": "https://dropbox.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Dropbox: Secure cloud storage, file sharing, and more",
+    "desc": "Discover Dropbox – secure, easy cloud storage for file sharing and collaboration. With Dash, save time and organize all your company content in one place.",
+    "h1_count": 1,
+    "images": 71,
+    "missing_alt": 10,
+    "links": 135
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "box.com",
+   "tranco_rank": 768,
+   "url": "https://box.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Box | AI-Powered Content Management, Workflow & Collaboration",
+    "desc": "Intelligent Content Management makes it easy to automate workflows, collaborate internally and externally, and protect your sensitive data, all on one platform.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "saas",
+   "domain": "zendesk.com",
+   "tranco_rank": 375,
+   "url": "https://zendesk.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "AI-Powered Customer Service Platform | Zendesk",
+    "desc": "Move beyond deflection with AI agents that resolve issues end-to-end. Improve service quality, speed, and scale. Start your free trial.",
+    "h1_count": 1,
+    "images": 106,
+    "missing_alt": 32,
+    "links": 309
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "intercom.com",
+   "tranco_rank": 1879,
+   "url": "https://intercom.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Intercom | A complete system for human and AI customer service",
+    "desc": "Intercom is the only helpdesk with a natively integrated AI Agent, Fin, meaning every customer conversation improves the next one, enabling perfect experiences that were never possible before.",
+    "h1_count": 1,
+    "images": 60,
+    "missing_alt": 3,
+    "links": 79
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "twilio.com",
+   "tranco_rank": 1772,
+   "url": "https://twilio.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Conversational AI and APIs for SMS, Email, Voice | Twilio",
+    "desc": "Build amazing customer experiences on the Twilio platform with APIs for SMS, RCS, voice, and email, plus conversational AI for smarter engagement, and identity verification for trust.",
+    "h1_count": 1,
+    "images": 47,
+    "missing_alt": 14,
+    "links": 370
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "stripe.com",
+   "tranco_rank": 235,
+   "url": "https://stripe.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+    "desc": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models and manage money movement.",
+    "h1_count": 2,
+    "images": 31,
+    "missing_alt": 27,
+    "links": 182
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "shopify.com",
+   "tranco_rank": 174,
+   "url": "https://shopify.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Shopify: The All-in-One Commerce Platform for Businesses - Shopify",
+    "desc": "Try Shopify free. Build or grow your business fast with AI. Get more than ecommerce software with tools to manage every part of your business.",
+    "h1_count": 1,
+    "images": 51,
+    "missing_alt": 43,
+    "links": 327
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "squarespace.com",
+   "tranco_rank": 530,
+   "url": "https://squarespace.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Website Builder – Easily Create Your Own Website — Squarespace",
+    "desc": "Create a website and grow your business with a free Squarespace trial. Start with customizable website templates, AI website builder tools, or a domain name.",
+    "h1_count": 1,
+    "images": 75,
+    "missing_alt": 73,
+    "links": 437
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "wix.com",
+   "tranco_rank": 603,
+   "url": "https://wix.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Website Builder - Create a Free Website In Minutes | Wix.com",
+    "desc": "Get everything you need to build a website your way. Wix’s free, easy-to-use website builder offers 2,000+ templates, built-in AI tools and a custom domain.",
+    "h1_count": 1,
+    "images": 148,
+    "missing_alt": 18,
+    "links": 212
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "webflow.com",
+   "tranco_rank": 2730,
+   "url": "https://webflow.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Webflow: The agentic web platform for modern businesses",
+    "desc": "Design, build, optimize, and rank in AI search — all in Webflow. Enterprise-grade security, CMS, hosting, and AEO built in. Trusted by over 300k teams.",
+    "h1_count": 2,
+    "images": 151,
+    "missing_alt": 128,
+    "links": 282
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "mailchimp.com",
+   "tranco_rank": 706,
+   "url": "https://mailchimp.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Email & SMS Marketing Platform | Mailchimp",
+    "desc": "Utilize real-time user behavior data and artificial intelligence to convert more customers. Easy to use, get started for free!",
+    "h1_count": 6,
+    "images": 119,
+    "missing_alt": 7,
+    "links": 312
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "klaviyo.com",
+   "tranco_rank": 599,
+   "url": "https://klaviyo.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Klaviyo: AI Email Marketing & SMS | B2C CRM",
+    "desc": "Klaviyo unifies AI-powered email marketing and SMS to drive growth, retention and measurable results. Build personalised, omnichannel experiences across WhatsApp, ecommerce and more with K:AI Agents.",
+    "h1_count": 1,
+    "images": 193,
+    "missing_alt": 131,
+    "links": 358
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "segment.com",
+   "tranco_rank": 2064,
+   "url": "https://segment.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Twilio Segment Customer Data Platform | Twilio",
+    "desc": "Collect, unify, and enrich customer data across any app or device with the Twilio Segment CDP, now available on Twilio.com.",
+    "h1_count": 1,
+    "images": 14,
+    "missing_alt": 0,
+    "links": 374
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "datadoghq.com",
+   "tranco_rank": 312,
+   "url": "https://datadoghq.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Cloud Monitoring as a Service | Datadog",
+    "desc": "See inside any stack, any app, at any scale, anywhere.",
+    "h1_count": 1,
+    "images": 29,
+    "missing_alt": 1,
+    "links": 524
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "newrelic.com",
+   "tranco_rank": 384,
+   "url": "https://newrelic.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "AI-powered Observability",
+    "desc": "New Relic is an AI-powered observability platform that correlates your telemetry across your entire stack, so you can isolate the root cause and reduce MTTR.",
+    "h1_count": 0,
+    "images": 31,
+    "missing_alt": 0,
+    "links": 449
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "AI-powered Observability",
+    "desc": "New Relic is an AI-powered observability platform that correlates your telemetry across your entire stack, so you can isolate the root cause and reduce MTTR.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "pagerduty.com",
+   "tranco_rank": 16032,
+   "url": "https://pagerduty.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "PagerDuty: The AI-First Operations Platform",
+    "desc": "Turn incidents into intelligence. PagerDuty's AI-first Operations Platform helps you automate, resolve, and prevent critical issues — from detection to resolution.",
+    "h1_count": 1,
+    "images": 117,
+    "missing_alt": 16,
+    "links": 191
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "okta.com",
+   "tranco_rank": 527,
+   "url": "https://okta.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Secure Identity for Employees, Customers, and AI | Okta",
+    "desc": "The Okta and Auth0 Platforms enable secure access, authentication, and automation — putting identity at the heart of business security and growth.",
+    "h1_count": 1,
+    "images": 107,
+    "missing_alt": 89,
+    "links": 345
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "auth0.com",
+   "tranco_rank": 1285,
+   "url": "https://auth0.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Secure AI Agent & User Authentication | Auth0",
+    "desc": "Secure users, AI agents, and more with Auth0, an easy-to-implement, scalable, and adaptable authentication and authorization platform.",
+    "h1_count": 1,
+    "images": 105,
+    "missing_alt": 49,
+    "links": 234
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "cloudflare.com",
+   "tranco_rank": 2,
+   "url": "https://cloudflare.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Cloudflare: Build for the agent era",
+    "desc": "Welcome to Cloudflare - Powering the next generation of applications",
+    "h1_count": 2,
+    "images": 66,
+    "missing_alt": 1,
+    "links": 72
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "digitalocean.com",
+   "tranco_rank": 596,
+   "url": "https://digitalocean.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "AI-Native Cloud | DigitalOcean",
+    "desc": "Run AI products in production with a unified stack for agents, inference, and cloud—built for control, performance, and economics at scale.",
+    "h1_count": 1,
+    "images": 35,
+    "missing_alt": 8,
+    "links": 198
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "heroku.com",
+   "tranco_rank": 5461,
+   "url": "https://heroku.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Heroku | The Cloud Application Platform For Developers",
+    "desc": "Experience fully managed app hosting that just works. Build, deploy, and scale on the battle-tested platform that defines the industry.",
+    "h1_count": 1,
+    "images": 35,
+    "missing_alt": 9,
+    "links": 177
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "vercel.com",
+   "tranco_rank": 3232,
+   "url": "https://vercel.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Agentic Infrastructure - Vercel",
+    "desc": "The autonomous stack for every app and agent.",
+    "h1_count": 1,
+    "images": 17,
+    "missing_alt": 1,
+    "links": 167
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "netlify.com",
+   "tranco_rank": 4246,
+   "url": "https://netlify.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Push your ideas to the web | Netlify",
+    "desc": "Create with AI or code, deploy instantly on production infrastructure. One platform to build and ship.",
+    "h1_count": 1,
+    "images": 23,
+    "missing_alt": 0,
+    "links": 132
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "gitlab.com",
+   "tranco_rank": 385,
+   "url": "https://gitlab.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "GitLab - Speed with control for agentic software engineering",
+    "desc": "The intelligent orchestration platform for DevSecOps, enabling teams and agents to ship trusted software at enterprise scale.",
+    "h1_count": 1,
+    "images": 44,
+    "missing_alt": 1,
+    "links": 197
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "bitbucket.org",
+   "tranco_rank": 2112,
+   "url": "https://bitbucket.org/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Bitbucket Home Page",
+    "desc": null,
+    "h1_count": 1,
+    "images": 27,
+    "missing_alt": 16,
+    "links": 73
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "Bitbucket Home Page",
+    "desc": null,
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "docker.com",
+   "tranco_rank": 485,
+   "url": "https://docker.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Docker: Accelerated Container Application Development",
+    "desc": "Docker is a platform designed to help developers build, share, and run container applications. We handle the tedious setup, so you can focus on the code.",
+    "h1_count": 1,
+    "images": 7,
+    "missing_alt": 1,
+    "links": 113
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "jetbrains.com",
+   "tranco_rank": 874,
+   "url": "https://jetbrains.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "JetBrains: Essential tools for software developers and teams",
+    "desc": "JetBrains is a cutting-edge software vendor specializing in the creation of intelligent development tools, including IntelliJ IDEA – the leading Java IDE, and the Kotlin programming language.",
+    "h1_count": 0,
+    "images": 0,
+    "missing_alt": 0,
+    "links": 0
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "JetBrains: Essential tools for software developers and teams",
+    "desc": "JetBrains is a cutting-edge software vendor specializing in the creation of intelligent development tools, including IntelliJ IDEA – the leading Java IDE, and the Kotlin programming language.",
+    "h1_count": 1
+   },
+   "silent_fields": [
+    "h1"
+   ],
+   "outcome": "silent_blank"
+  },
+  {
+   "category": "saas",
+   "domain": "postman.com",
+   "tranco_rank": 3357,
+   "url": "https://postman.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Postman: The World's Leading API Platform | Sign Up for Free",
+    "desc": "Accelerate API development with Postman's all-in-one platform. Streamline collaboration and simplify the API lifecycle for faster, better results. Learn more.",
+    "h1_count": 1,
+    "images": 54,
+    "missing_alt": 20,
+    "links": 186
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "snowflake.com",
+   "tranco_rank": 2579,
+   "url": "https://snowflake.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Snowflake AI Data Cloud",
+    "desc": "Snowflake powers AI, data engineering, applications, and analytics on a trusted, scalable AI Data Cloud—eliminating silos and accelerating innovation.",
+    "h1_count": 1,
+    "images": 51,
+    "missing_alt": 4,
+    "links": 119
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "saas",
+   "domain": "databricks.com",
+   "tranco_rank": 2856,
+   "url": "https://databricks.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Databricks: Leading Data and AI Platform for Enterprises",
+    "desc": "Databricks offers a unified platform for data, analytics and AI. Build better AI with a data-centric approach. Simplify ETL, data warehousing, governance and AI on the Data + AI Platform.",
+    "h1_count": 1,
+    "images": 45,
+    "missing_alt": 37,
+    "links": 265
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "nytimes.com",
+   "tranco_rank": 154,
+   "url": "https://nytimes.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "The New York Times - Breaking News, US News, World News and Videos",
+    "desc": "Live news, investigations, opinion, photos and video by the journalists of The New York Times from more than 150 countries around the world. Subscribe for coverage of U.S. and international news, politics, business, technology, science, health, arts, sports and more.",
+    "h1_count": 1,
+    "images": 46,
+    "missing_alt": 26,
+    "links": 100
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "washingtonpost.com",
+   "tranco_rank": 355,
+   "url": "https://washingtonpost.com/",
+   "ai": {
+    "http": null,
+    "error": "ReadTimeout",
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "The Washington Post - Breaking news and latest headlines, U.S. news, world news, and video",
+    "desc": "Breaking news, live coverage, investigations, analysis, video, photos and opinions from The Washington Post. Subscribe for the latest on U.S. and international news, politics, business, technology, climate change, health and wellness, sports, science, weather, lifestyle and more.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "news",
+   "domain": "wsj.com",
+   "tranco_rank": 359,
+   "url": "https://wsj.com/",
+   "ai": {
+    "http": 401,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "wsj.com",
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "news",
+   "domain": "cnn.com",
+   "tranco_rank": 194,
+   "url": "https://cnn.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Breaking News, Latest News and Videos | CNN",
+    "desc": "View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health at CNN.com.",
+    "h1_count": 0,
+    "images": 74,
+    "missing_alt": 0,
+    "links": 480
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "Breaking News, Latest News and Videos | CNN",
+    "desc": "View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health at CNN.com.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "bbc.com",
+   "tranco_rank": 211,
+   "url": "https://bbc.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & Audio",
+    "desc": "Visit BBC for trusted reporting on the latest world and US news, sports, business, climate, innovation, culture and much more.",
+    "h1_count": 0,
+    "images": 130,
+    "missing_alt": 65,
+    "links": 305
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & Audio",
+    "desc": "Visit BBC for trusted reporting on the latest world and US news, sports, business, climate, innovation, culture and much more.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "reuters.com",
+   "tranco_rank": 273,
+   "url": "https://reuters.com/",
+   "ai": {
+    "http": 401,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "reuters.com",
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "news",
+   "domain": "apnews.com",
+   "tranco_rank": 795,
+   "url": "https://apnews.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Associated Press News: Breaking News, Latest Headlines and Videos  | AP News",
+    "desc": "Read the latest headlines, breaking news, and videos at APNews.com, the definitive source for independent journalism from every corner of the globe.",
+    "h1_count": 0,
+    "images": 83,
+    "missing_alt": 49,
+    "links": 1634
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "Associated Press News: Breaking News, Latest Headlines and Videos  | AP News",
+    "desc": "Read the latest headlines, breaking news, and videos at APNews.com, the definitive source for independent journalism from every corner of the globe.",
+    "h1_count": 1
+   },
+   "silent_fields": [
+    "h1"
+   ],
+   "outcome": "silent_blank"
+  },
+  {
+   "category": "news",
+   "domain": "bloomberg.com",
+   "tranco_rank": 362,
+   "url": "https://bloomberg.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Bloomberg - Are you a robot?",
+    "desc": null,
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "news",
+   "domain": "ft.com",
+   "tranco_rank": 521,
+   "url": "https://ft.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Home - Financial Times",
+    "desc": "News, analysis and opinion from the Financial Times on the latest in markets, economics and politics",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "news",
+   "domain": "theguardian.com",
+   "tranco_rank": 197,
+   "url": "https://theguardian.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Latest news, sport and opinion from the Guardian",
+    "desc": "Latest news, sport, business, comment, analysis and reviews from the Guardian, the world's leading liberal voice",
+    "h1_count": 0,
+    "images": 114,
+    "missing_alt": 7,
+    "links": 347
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "Latest news, sport and opinion from the Guardian",
+    "desc": "Latest US news, world news, sports, business, opinion, analysis and reviews from the Guardian, the world's leading liberal voice",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "forbes.com",
+   "tranco_rank": 210,
+   "url": "https://forbes.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Forbes",
+    "desc": "Forbes is a global media company, focusing on business, investing, technology, entrepreneurship, leadership, and lifestyle.",
+    "h1_count": 1,
+    "images": 91,
+    "missing_alt": 0,
+    "links": 908
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "cnbc.com",
+   "tranco_rank": 470,
+   "url": "https://cnbc.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "International Business, World News & Global Stock Market Analysis",
+    "desc": "CNBC International is the world leader for news on business, technology, China, trade, oil prices, the Middle East and markets.",
+    "h1_count": 0,
+    "images": 46,
+    "missing_alt": 0,
+    "links": 411
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "Stock Markets, Business News, Financials, Earnings - CNBC",
+    "desc": "CNBC is the world leader in business news and real-time financial market coverage. Find fast, actionable information.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "usatoday.com",
+   "tranco_rank": 562,
+   "url": "https://usatoday.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Latest World & National News & Headlines - USATODAY.com",
+    "desc": "USA TODAY delivers current national and local news, sports, entertainment, finance, technology, and more through award-winning journalism, photos, and videos.",
+    "h1_count": 0,
+    "images": 14,
+    "missing_alt": 0,
+    "links": 40
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "USA TODAY - Breaking News and Latest News Today",
+    "desc": "USA TODAY delivers current national and local news, sports, entertainment, finance, technology, and more through award-winning journalism, photos, and videos.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "npr.org",
+   "tranco_rank": 494,
+   "url": "https://npr.org/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "NPR - Breaking News, Analysis, Music, Arts & Podcasts : NPR",
+    "desc": "Top stories in the U.S. and world news, politics, health, science, business, music, arts and culture. Nonprofit journalism with a mission. This is NPR.",
+    "h1_count": 0,
+    "images": 148,
+    "missing_alt": 64,
+    "links": 352
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "NPR - Breaking News, Analysis, Music, Arts & Podcasts : NPR",
+    "desc": "Top stories in the U.S. and world news, politics, health, science, business, music, arts and culture. Nonprofit journalism with a mission. This is NPR.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "nbcnews.com",
+   "tranco_rank": 853,
+   "url": "https://nbcnews.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "NBC News - Breaking Headlines and Video Reports on World, U.S. and Local Angles | NBC News",
+    "desc": "Go to NBCNews.com for breaking news, videos, and the latest top stories in world news, business, politics, health and pop culture.",
+    "h1_count": 0,
+    "images": 82,
+    "missing_alt": 34,
+    "links": 320
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "NBC News - Breaking Headlines and Video Reports on World, U.S. and Local Angles | NBC News",
+    "desc": "Go to NBCNews.com for breaking news, videos, and the latest top stories in world news, business, politics, health and pop culture.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "cbsnews.com",
+   "tranco_rank": 680,
+   "url": "https://cbsnews.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "CBS News | Breaking news, top stories & today's latest headlines",
+    "desc": "CBS News offers breaking news coverage of today&#039;s top headlines. Stay informed on the biggest new stories with our balanced, trustworthy reporting.",
+    "h1_count": 0,
+    "images": 106,
+    "missing_alt": 30,
+    "links": 270
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "CBS News | Breaking news, top stories & today's latest headlines",
+    "desc": "CBS News offers breaking news coverage of today&#039;s top headlines. Stay informed on the biggest new stories with our balanced, trustworthy reporting.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "abcnews.go.com",
+   "tranco_rank": null,
+   "url": "https://abcnews.go.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "ABC News - Breaking News, Latest News and Videos",
+    "desc": "Your trusted source for breaking news, analysis, exclusive interviews, headlines, and videos at ABCNews.com",
+    "h1_count": 1,
+    "images": 94,
+    "missing_alt": 93,
+    "links": 289
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "foxnews.com",
+   "tranco_rank": 517,
+   "url": "https://foxnews.com/",
+   "ai": {
+    "http": null,
+    "error": "ConnectionError",
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Fox News - Breaking News Updates | Latest News Headlines | Photos & News Videos",
+    "desc": "Breaking News, Latest News and Current News from FOXNews.com. Breaking news and video. Latest Current News: U.S., World, Entertainment, Health, Business, Technology, Politics, Sports.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "news",
+   "domain": "latimes.com",
+   "tranco_rank": 894,
+   "url": "https://latimes.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "News from California, across the nation and world - Los Angeles Times",
+    "desc": "The L.A. Times is a leading source of breaking news, entertainment, sports, politics, and more for Southern California and the world.",
+    "h1_count": 1,
+    "images": 160,
+    "missing_alt": 4,
+    "links": 830
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "politico.com",
+   "tranco_rank": 2071,
+   "url": "https://politico.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Politics, Policy, Political News - POLITICO",
+    "desc": "Nobody knows politics like POLITICO.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "news",
+   "domain": "axios.com",
+   "tranco_rank": 2516,
+   "url": "https://axios.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Axios - Breaking news, U.S. news and politics, and local news",
+    "desc": "Smart, efficient news worthy of your time, attention, and trust. Covering local news, politics, health, climate, tech, media, business, sports, world, science and more.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "news",
+   "domain": "thehill.com",
+   "tranco_rank": 2619,
+   "url": "https://thehill.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Access to this page has been denied",
+    "desc": "px-captcha",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "news",
+   "domain": "newsweek.com",
+   "tranco_rank": 1795,
+   "url": "https://newsweek.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Newsweek - Latest Breaking News, US, World, Politics, Business, Tech and Videos.",
+    "desc": "Newsweek provides in-depth analysis on news, world events, politics, business, tech, entertainment, healthcare, & trending videos. Subscribe for breaking news alerts!",
+    "h1_count": 0,
+    "images": 117,
+    "missing_alt": 0,
+    "links": 684
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "Newsweek - Latest Breaking News, US, World, Politics, Business, Tech and Videos.",
+    "desc": "Newsweek provides in-depth analysis on news, world events, politics, business, tech, entertainment, healthcare, & trending videos. Subscribe for breaking news alerts!",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "time.com",
+   "tranco_rank": 555,
+   "url": "https://time.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "TIME | Current & Breaking News | National & World Updates",
+    "desc": "Breaking news and analysis from time.com. Politics, world news, photos, video, tech reviews, health, science, and entertainment news.",
+    "h1_count": 1,
+    "images": 72,
+    "missing_alt": 57,
+    "links": 235
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "theatlantic.com",
+   "tranco_rank": 998,
+   "url": "https://theatlantic.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "World Edition - The Atlantic",
+    "desc": "The Atlantic covers news, politics, culture, technology, health, and more, through its articles, podcasts, videos, and flagship magazine.",
+    "h1_count": 0,
+    "images": 69,
+    "missing_alt": 64,
+    "links": 251
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "The Atlantic",
+    "desc": "The Atlantic covers news, politics, culture, technology, health, and more, through its articles, podcasts, videos, and flagship magazine.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "vox.com",
+   "tranco_rank": 2283,
+   "url": "https://vox.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Vox",
+    "desc": "Vox is a general interest news site for the 21st century. Its mission: to help everyone understand our complicated world, so that we can all help shape it. In text, video and audio, our reporters explain politics, policy, world affairs, technology, culture, science, the climate crisis, money, health and everything else that matters. Our goal is to ensure that everyone, regardless of income or status, can access accurate information that empowers them.",
+    "h1_count": 0,
+    "images": 133,
+    "missing_alt": 1,
+    "links": 192
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "Vox",
+    "desc": "Vox is a general interest news site for the 21st century. Its mission: to help everyone understand our complicated world, so that we can all help shape it. In text, video and audio, our reporters explain politics, policy, world affairs, technology, culture, science, the climate crisis, money, health and everything else that matters. Our goal is to ensure that everyone, regardless of income or status, can access accurate information that empowers them.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "businessinsider.com",
+   "tranco_rank": 437,
+   "url": "https://businessinsider.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Business Insider Polska",
+    "desc": null,
+    "h1_count": 12,
+    "images": 70,
+    "missing_alt": 0,
+    "links": 215
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "Business Insider - Latest News in Tech, Markets, Economy & Innovation",
+    "desc": "Business Insider tells the global tech, finance, stock market, media, economy, lifestyle, real estate, AI and innovative stories you want to know.",
+    "h1_count": 1
+   },
+   "silent_fields": [
+    "description"
+   ],
+   "outcome": "silent_blank"
+  },
+  {
+   "category": "news",
+   "domain": "techcrunch.com",
+   "tranco_rank": 643,
+   "url": "https://techcrunch.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "TechCrunch | Startup and Technology News",
+    "desc": "TechCrunch | Reporting on the business of technology, startups, venture capital funding, and Silicon Valley",
+    "h1_count": 0,
+    "images": 73,
+    "missing_alt": 37,
+    "links": 326
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "TechCrunch | Startup and Technology News",
+    "desc": "TechCrunch | Reporting on the business of technology, startups, venture capital funding, and Silicon Valley",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "theverge.com",
+   "tranco_rank": 831,
+   "url": "https://theverge.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "The Verge",
+    "desc": "The Verge is about technology and how it makes us feel. Founded in 2011, we offer our audience everything from breaking news to reviews to award-winning features and investigations, on our site, in video, and in podcasts.",
+    "h1_count": 0,
+    "images": 138,
+    "missing_alt": 15,
+    "links": 307
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "The Verge",
+    "desc": "The Verge is about technology and how it makes us feel. Founded in 2011, we offer our audience everything from breaking news to reviews to award-winning features and investigations, on our site, in video, and in podcasts.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "arstechnica.com",
+   "tranco_rank": 1854,
+   "url": "https://arstechnica.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Ars Technica - Serving the Technologist since 1998. News, reviews, and analysis.",
+    "desc": "News and reviews, covering IT, AI, science, space, health, gaming, cybersecurity, tech policy, computers, mobile devices, and operating systems.",
+    "h1_count": 1,
+    "images": 60,
+    "missing_alt": 31,
+    "links": 202
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "wired.com",
+   "tranco_rank": 540,
+   "url": "https://wired.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "WIRED - The Latest in Technology, Science, Culture and Business | WIRED",
+    "desc": "We bring you the future as it happens. From the latest in science and technology to the big stories in business and culture, we've got you covered.",
+    "h1_count": 1,
+    "images": 50,
+    "missing_alt": 24,
+    "links": 150
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "engadget.com",
+   "tranco_rank": 2186,
+   "url": "https://engadget.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Engadget | Technology News & Expert Reviews",
+    "desc": "Breaking news from the worlds of technology and entertainment, and expert reviews of the latest consumer tech products.",
+    "h1_count": 2
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "news",
+   "domain": "zdnet.com",
+   "tranco_rank": 1847,
+   "url": "https://zdnet.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "News and Advice on the World's Latest Innovations | ZDNET - ZDNET",
+    "desc": "see all latest",
+    "h1_count": 0,
+    "images": 49,
+    "missing_alt": 48,
+    "links": 282
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "News and Advice on the World's Latest Innovations | ZDNET - ZDNET",
+    "desc": "see all latest",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "venturebeat.com",
+   "tranco_rank": 2858,
+   "url": "https://venturebeat.com/",
+   "ai": {
+    "http": 429,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Vercel Security Checkpoint",
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "news",
+   "domain": "espn.com",
+   "tranco_rank": 425,
+   "url": "https://espn.com/",
+   "ai": {
+    "http": 202,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "",
+    "desc": null,
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "news",
+   "domain": "sbnation.com",
+   "tranco_rank": 6260,
+   "url": "https://sbnation.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "SB Nation",
+    "desc": "Come fan with us. SB Nation is the largest independent sports media brand, consisting of SBNation.com, MMAFighting.com and over 300 fan-centric team communities.",
+    "h1_count": 0,
+    "images": 94,
+    "missing_alt": 1,
+    "links": 528
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "SB Nation",
+    "desc": "Come fan with us. SB Nation is the largest independent sports media brand, consisting of SBNation.com, MMAFighting.com and over 300 fan-centric team communities.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "variety.com",
+   "tranco_rank": 2213,
+   "url": "https://variety.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Variety - Entertainment news, film reviews, awards, film festivals, box office, entertainment industry conferences",
+    "desc": "Entertainment news, film reviews, awards, film festivals, box office, entertainment industry conferences",
+    "h1_count": 1,
+    "images": 85,
+    "missing_alt": 8,
+    "links": 392
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "hollywoodreporter.com",
+   "tranco_rank": 2551,
+   "url": "https://hollywoodreporter.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "The Hollywood Reporter – Movie news, TV news, awards news, lifestyle news, business news and more from The Hollywood Reporter.",
+    "desc": "Movie news, TV news, awards news, lifestyle news, business news and more from The Hollywood Reporter.",
+    "h1_count": 0,
+    "images": 81,
+    "missing_alt": 7,
+    "links": 421
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "The Hollywood Reporter – Movie news, TV news, awards news, lifestyle news, business news and more from The Hollywood Reporter.",
+    "desc": "Movie news, TV news, awards news, lifestyle news, business news and more from The Hollywood Reporter.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "rollingstone.com",
+   "tranco_rank": 2424,
+   "url": "https://rollingstone.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Rolling Stone – Music, Film, TV and Political News Coverage",
+    "desc": "Get the latest Rolling Stone news with exclusive stories and pictures from Rolling Stone.",
+    "h1_count": 1,
+    "images": 35,
+    "missing_alt": 1,
+    "links": 247
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "news",
+   "domain": "economist.com",
+   "tranco_rank": 1154,
+   "url": "https://economist.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "The Economist | Go beyond breaking news",
+    "desc": "Know which way is up. Trusted daily reporting and news analysis. Make sense of politics, economics, business and technology with articles, podcasts and videos.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "airbnb.com",
+   "tranco_rank": 738,
+   "url": "https://airbnb.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Airbnb: Vacation Rentals, Cabins, Beach Houses, Unique Homes & Experiences",
+    "desc": "Get an Airbnb for every kind of trip → 8 million vacation rentals → 2 million Guest Favorites → 220+ countries and regions worldwide",
+    "h1_count": 1,
+    "images": 1,
+    "missing_alt": 1,
+    "links": 14
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "booking.com",
+   "tranco_rank": 252,
+   "url": "https://booking.com/",
+   "ai": {
+    "http": 202,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "",
+    "desc": null,
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "expedia.com",
+   "tranco_rank": 886,
+   "url": "https://expedia.com/",
+   "ai": {
+    "http": 429,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Bot or Not?",
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "vrbo.com",
+   "tranco_rank": 3010,
+   "url": "https://vrbo.com/",
+   "ai": {
+    "http": 429,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Too Many Requests",
+    "desc": null,
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "tripadvisor.com",
+   "tranco_rank": 564,
+   "url": "https://tripadvisor.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "tripadvisor.com",
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "hotels.com",
+   "tranco_rank": 3303,
+   "url": "https://hotels.com/",
+   "ai": {
+    "http": 429,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Bot or Not?",
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "kayak.com",
+   "tranco_rank": 4762,
+   "url": "https://kayak.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Tanie loty, hotele i samochody | KAYAK",
+    "desc": "KAYAK przeszukuje setki stron turystycznych, by znaleźć informacje, dzięki którym podejmiesz najlepszą decyzję dotyczącą rezerwacji lotu, hotelu czy wynajmu samochodu.",
+    "h1_count": 1,
+    "images": 78,
+    "missing_alt": 5,
+    "links": 503
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "priceline.com",
+   "tranco_rank": 4485,
+   "url": "https://priceline.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Access to this page has been denied",
+    "desc": "px-captcha",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "opentable.com",
+   "tranco_rank": 4219,
+   "url": "https://opentable.com/",
+   "ai": {
+    "http": null,
+    "error": "ReadTimeout",
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Access Denied",
+    "desc": null,
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "doordash.com",
+   "tranco_rank": 2051,
+   "url": "https://doordash.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "DoorDash: Food, Grocery and Retail - Fast Same Day Delivery",
+    "desc": "Get food, grocery, and retail essentials delivered fast. Shop same-day delivery from local stores and restaurants near you.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "ubereats.com",
+   "tranco_rank": 2994,
+   "url": "https://ubereats.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Uber Eats | Zamawiaj jedzenie, zakupy spożywcze i wiele więcej - z wygodną dostawą | Logowanie",
+    "desc": "Zamów dostawę tego, na co masz ochotę, z Uber Eats. Znajdź popularne restauracje i sklepy w pobliżu – zamów dostawę bezkontaktową jedzenia na wynos, artykułów spożywczych i nie tylko.",
+    "h1_count": 1,
+    "images": 5,
+    "missing_alt": 0,
+    "links": 36
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "grubhub.com",
+   "tranco_rank": 10682,
+   "url": "https://grubhub.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Grubhub food delivery is not available in your country",
+    "desc": "Free online ordering from restaurants near you! With more than 30,000 restaurants in 500+ cities, food delivery or takeout is just a click away. Because with Grubhub: Click, click, food!",
+    "h1_count": 1,
+    "images": 2,
+    "missing_alt": 2,
+    "links": 1
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "instacart.com",
+   "tranco_rank": 2765,
+   "url": "https://instacart.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "ERROR: The request could not be satisfied",
+    "desc": null,
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "fiverr.com",
+   "tranco_rank": 786,
+   "url": "https://fiverr.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "It needs a human touch",
+    "desc": "Complete the task and we'll get you right back into Fiverr.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "upwork.com",
+   "tranco_rank": 2479,
+   "url": "https://upwork.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Upwork | Hire Top Freelance Talent with Confidence",
+    "desc": "Upwork is the world’s largest human and AI-powered freelance marketplace to hire top talent—trusted by businesses and professionals worldwide.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "freelancer.com",
+   "tranco_rank": 3973,
+   "url": "https://freelancer.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Hire Freelancers & Find Freelance Jobs Online | Freelancer",
+    "desc": "Access the world's largest cloud workforce. 25.8+ million jobs completed across 3400+ skills. Post your job free, compare quotes, and hire top talent today.",
+    "h1_count": 1,
+    "images": 84,
+    "missing_alt": 30,
+    "links": 368
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "zillow.com",
+   "tranco_rank": 749,
+   "url": "https://zillow.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Access to this page has been denied",
+    "desc": "px-captcha",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "redfin.com",
+   "tranco_rank": 1056,
+   "url": "https://redfin.com/",
+   "ai": {
+    "http": 405,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Redfin | Real Estate & Homes for Sale, Rentals, Mortgages & Agents",
+    "desc": "Search national real estate and rental listings. Find the latest apartments for rent and homes for sale near you. Tour homes and make offers with the help of local Redfin real estate agents.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "realtor.com",
+   "tranco_rank": 2814,
+   "url": "https://realtor.com/",
+   "ai": {
+    "http": 429,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "realtor.com",
+    "desc": null,
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "trulia.com",
+   "tranco_rank": 4771,
+   "url": "https://trulia.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Access to this page has been denied",
+    "desc": "px-captcha",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "apartments.com",
+   "tranco_rank": 4816,
+   "url": "https://apartments.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Access Denied",
+    "desc": null,
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "cars.com",
+   "tranco_rank": 4185,
+   "url": "https://cars.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 400,
+    "title": null,
+    "desc": null,
+    "h1_count": null
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "cargurus.com",
+   "tranco_rank": 4457,
+   "url": "https://cargurus.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 400,
+    "title": null,
+    "desc": null,
+    "h1_count": null
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "truecar.com",
+   "tranco_rank": 23198,
+   "url": "https://truecar.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Access to this page has been denied",
+    "desc": "px-captcha",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "carmax.com",
+   "tranco_rank": 5738,
+   "url": "https://carmax.com/",
+   "ai": {
+    "http": null,
+    "error": "ReadTimeout",
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "CarMax - Shop for used cars, then buy online or at a store",
+    "desc": "Search used cars, research vehicle models, and compare cars, all online at carmax.com.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "craigslist.org",
+   "tranco_rank": 920,
+   "url": "https://craigslist.org/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "craigslist: poland jobs, apartments, for sale, services, community, and events",
+    "desc": "craigslist provides local classifieds and forums for jobs, housing, for sale, services, local community, and events",
+    "h1_count": 2,
+    "images": 0,
+    "missing_alt": 0,
+    "links": 356
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "offerup.com",
+   "tranco_rank": 20146,
+   "url": "https://offerup.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Buy & Sell Locally - OfferUp - Buy. Sell. Simple. - OfferUp",
+    "desc": "Instantly connect with local buyers and sellers on OfferUp! Buy and sell everything from cars and trucks, electronics, furniture, and more.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "mercari.com",
+   "tranco_rank": 3791,
+   "url": "https://mercari.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Your Go-to Marketplace for Deals on Used & Secondhand Items",
+    "desc": "Discover deals on everything from secondhand fashion to pre-owned collectibles, electronics, books & more on Mercari. Your go-to marketplace for hassle-free selling and deals.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "poshmark.com",
+   "tranco_rank": 3993,
+   "url": "https://poshmark.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Feed - Poshmark",
+    "desc": "Buy, sell, and discover fashion, home decor, beauty, and more",
+    "h1_count": 1,
+    "images": 9,
+    "missing_alt": 3,
+    "links": 533
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "stubhub.com",
+   "tranco_rank": 6768,
+   "url": "https://stubhub.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Buy sports, concert and theater tickets on StubHub!",
+    "desc": "Buy and sell sports tickets, concert tickets, theater tickets and Broadway tickets on StubHub!",
+    "h1_count": 0,
+    "images": 0,
+    "missing_alt": 0,
+    "links": 0
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "Buy sports, concert and theater tickets on StubHub!",
+    "desc": "Buy and sell sports tickets, concert tickets, theater tickets and Broadway tickets on StubHub!",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "ticketmaster.com",
+   "tranco_rank": 2204,
+   "url": "https://ticketmaster.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Let's Get Your Identity Verified",
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "seatgeek.com",
+   "tranco_rank": 14524,
+   "url": "https://seatgeek.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "seatgeek.com",
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "vividseats.com",
+   "tranco_rank": 18514,
+   "url": "https://vividseats.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Challenge Validation",
+    "desc": null,
+    "h1_count": 0,
+    "images": 0,
+    "missing_alt": 0,
+    "links": 0
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "Buy and Sell Tickets: Concerts, Sports & Theater | Vivid Seats",
+    "desc": "Online ticket marketplace where fans can buy and sell tickets to sports, concerts, and theater events nationwide.",
+    "h1_count": 0
+   },
+   "silent_fields": [
+    "description"
+   ],
+   "outcome": "silent_blank"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "gumtree.com",
+   "tranco_rank": 6475,
+   "url": "https://gumtree.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Gumtree | One of the UK's most popular online marketplaces",
+    "desc": "Discover the go-to marketplace for the home. Join the millions that buy, sell &amp; find a tradesperson, both locally and nationwide. Sell for free and find amazing deals on furniture, cars, tech, clothes, properties and more on Gumtree&#39;s easy-to-use trusted platform.",
+    "h1_count": 0,
+    "images": 53,
+    "missing_alt": 2,
+    "links": 227
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "Gumtree | One of the UK's most popular online marketplaces",
+    "desc": "Discover the go-to marketplace for the home. Join the millions that buy, sell &amp; find a tradesperson, both locally and nationwide. Sell for free and find amazing deals on furniture, cars, tech, clothes, properties and more on Gumtree&#39;s easy-to-use trusted platform.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "yelp.com",
+   "tranco_rank": 648,
+   "url": "https://yelp.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "yelp.com",
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "angi.com",
+   "tranco_rank": 6413,
+   "url": "https://angi.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 400,
+    "title": null,
+    "desc": null,
+    "h1_count": null
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "thumbtack.com",
+   "tranco_rank": 9578,
+   "url": "https://thumbtack.com/",
+   "ai": {
+    "http": 202,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "",
+    "desc": null,
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "taskrabbit.com",
+   "tranco_rank": 26205,
+   "url": "https://taskrabbit.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Taskrabbit: Same Day Handyman, Moving & Mounting Services",
+    "desc": "Our same-day service platform instantly connects you with skilled Taskers to help with cleaning, furniture assembly, home repairs, running errands and more.",
+    "h1_count": 3,
+    "images": 29,
+    "missing_alt": 16,
+    "links": 82
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "rover.com",
+   "tranco_rank": 14451,
+   "url": "https://rover.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Book Dog Boarding, Cat Sitting, Walking & Training - Rover.com",
+    "desc": "Find 5-star pet sitters near you, offering dog & cat sitting, dog training, walking, boarding, house sitting, or doggy day care. Book and pay securely.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "marketplaces",
+   "domain": "care.com",
+   "tranco_rank": 12757,
+   "url": "https://care.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Care.com: Find Child Care, Babysitters, Senior Care, Pet Care and Housekeeping",
+    "desc": "Get the help you need for your children, pets, elderly parents, home and lifestyle. Making it easier to find better care for your whole family.",
+    "h1_count": 3
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "jobs",
+   "domain": "indeed.com",
+   "tranco_rank": 361,
+   "url": "https://indeed.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 400,
+    "title": null,
+    "desc": null,
+    "h1_count": null
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "jobs",
+   "domain": "linkedin.com",
+   "tranco_rank": 18,
+   "url": "https://linkedin.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Checking your browser - reCAPTCHA",
+    "desc": null,
+    "h1_count": 0,
+    "images": 0,
+    "missing_alt": 0,
+    "links": 1
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "LinkedIn: Log In or Sign Up",
+    "desc": "1 billion members | Manage your professional identity. Build and engage with your professional network. Access knowledge, insights and opportunities.",
+    "h1_count": 1
+   },
+   "silent_fields": [
+    "description",
+    "h1"
+   ],
+   "outcome": "silent_blank"
+  },
+  {
+   "category": "jobs",
+   "domain": "glassdoor.com",
+   "tranco_rank": 2518,
+   "url": "https://glassdoor.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 400,
+    "title": null,
+    "desc": null,
+    "h1_count": null
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "jobs",
+   "domain": "monster.com",
+   "tranco_rank": 5055,
+   "url": "https://monster.com/",
+   "ai": {
+    "http": null,
+    "error": "SSLError",
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "monster.com",
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "jobs",
+   "domain": "ziprecruiter.com",
+   "tranco_rank": 5538,
+   "url": "https://ziprecruiter.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Job Search: Millions of US Jobs (HIRING NOW) Near You - ZipRecruiter",
+    "desc": "Job Search: Millions of US Jobs (HIRING NOW) Near You - ZipRecruiter",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "jobs",
+   "domain": "careerbuilder.com",
+   "tranco_rank": 13019,
+   "url": "https://careerbuilder.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "careerbuilder.com",
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "jobs",
+   "domain": "simplyhired.com",
+   "tranco_rank": 17233,
+   "url": "https://simplyhired.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Job Search Engine | SimplyHired",
+    "desc": "Search for job opportunities across the United States on SimplyHired. Browse by job category, city, state, employer and more. Get a head start and post your resume.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "jobs",
+   "domain": "dice.com",
+   "tranco_rank": 17980,
+   "url": "https://dice.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Find Tech Jobs | Advance Your Tech Career | Job Search on Dice.com",
+    "desc": "Search 70,000+ job openings from tech's hottest employers. Salary estimations, career path tips and Insights to make your next career move the right one.",
+    "h1_count": 1,
+    "images": 18,
+    "missing_alt": 6,
+    "links": 198
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "flexjobs.com",
+   "tranco_rank": 15780,
+   "url": "https://flexjobs.com/",
+   "ai": {
+    "http": null,
+    "error": "ReadTimeout",
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "FlexJobs: Best Work From Home Jobs, Online Jobs & More",
+    "desc": "The #1 Job Site to Find Work From Home Jobs. No Ads, Scams, or Junk. Find legitimate work-from-home jobs with options for flexible hours and hybrid work.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "jobs",
+   "domain": "snagajob.com",
+   "tranco_rank": 35202,
+   "url": "https://snagajob.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Job Search for Hourly & Local Jobs Hiring Now",
+    "desc": "Search for hourly and local jobs hiring in your area with Snagajob. Find your next full-time, part-time, gig, or shift fast.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "jobs",
+   "domain": "usajobs.gov",
+   "tranco_rank": 11333,
+   "url": "https://usajobs.gov/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "USAJOBS - The Federal Government's official employment site",
+    "desc": "Search and apply for federal jobs. Learn about unique hiring paths for veterans, students and graduates, individuals with a disability, and more.",
+    "h1_count": 1,
+    "images": 6,
+    "missing_alt": 2,
+    "links": 86
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "idealist.org",
+   "tranco_rank": 16776,
+   "url": "https://idealist.org/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Volunteering, Nonprofit Jobs, and Community - Idealist",
+    "desc": "Find volunteer opportunities, nonprofit jobs, social-impact opportunities and more on the Idealist platform.",
+    "h1_count": 1,
+    "images": 26,
+    "missing_alt": 12,
+    "links": 85
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "themuse.com",
+   "tranco_rank": 13252,
+   "url": "https://themuse.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "The Muse - Career advice and better job search",
+    "desc": "Find jobs at the best companies hiring near you and get free career advice.",
+    "h1_count": 1,
+    "images": 44,
+    "missing_alt": 20,
+    "links": 118
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "wellfound.com",
+   "tranco_rank": 16091,
+   "url": "https://wellfound.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Startup Jobs & AI Recruiting Platform | Wellfound",
+    "desc": "Wellfound is the AI recruiting platform and talent marketplace for startups. Post jobs free, deploy AI sourcing agents, or hire with a dedicated recruiter.",
+    "h1_count": 1,
+    "images": 39,
+    "missing_alt": 7,
+    "links": 81
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "builtin.com",
+   "tranco_rank": 11199,
+   "url": "https://builtin.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Built In: Job Search & Company Research",
+    "desc": "Built In is a top destination for highly skilled professionals around the world. Our platform features real-time job listings and company profiles with rich insights for candidates searching in the US and globally.",
+    "h1_count": 1,
+    "images": 18,
+    "missing_alt": 0,
+    "links": 193
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "lever.co",
+   "tranco_rank": 10486,
+   "url": "https://lever.co/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Lever | Modern Recruiting Software & ATS",
+    "desc": "Lever is modern recruiting software that combines ATS and CRM capabilities to help scaling teams nurture talent relationships and hire efficiently.",
+    "h1_count": 1,
+    "images": 14,
+    "missing_alt": 0,
+    "links": 42
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "greenhouse.io",
+   "tranco_rank": 4528,
+   "url": "https://greenhouse.io/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Greenhouse | Applicant tracking software & hiring platform",
+    "desc": "Greenhouse is more than your typical ATS recruiting software, powered by built-in AI recruiting tools to streamline sourcing, hiring and talent management.",
+    "h1_count": 2,
+    "images": 42,
+    "missing_alt": 16,
+    "links": 137
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "workable.com",
+   "tranco_rank": 10419,
+   "url": "https://workable.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Workable | All-in-one HR software",
+    "desc": "Workable is your system of record for everything HR. Find, hire, and manage top talent effortlessly. Trusted by 35,000+ companies across 100+ countries. Start your free trial today.",
+    "h1_count": 1,
+    "images": 56,
+    "missing_alt": 16,
+    "links": 61
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "smartrecruiters.com",
+   "tranco_rank": 6385,
+   "url": "https://smartrecruiters.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Talent Acquisition and Hiring Platform - AI-Powered",
+    "desc": "Enterprise-grade AI hiring platform designed for HR and recruiting talent. SmartRecruiters all-in-one solution, so you can track applicants and hire easily.",
+    "h1_count": 1,
+    "images": 75,
+    "missing_alt": 35,
+    "links": 142
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "jobvite.com",
+   "tranco_rank": 19063,
+   "url": "https://jobvite.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Simplify Complex Hiring with Recruitment Software | Jobvite",
+    "desc": "Empower your company’s growth by creating exceptional candidate experiences, increasing capacity, and boosting hiring efficiency with recruitment software.",
+    "h1_count": 1,
+    "images": 22,
+    "missing_alt": 3,
+    "links": 83
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "adzuna.com",
+   "tranco_rank": 26267,
+   "url": "https://adzuna.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 400,
+    "title": null,
+    "desc": null,
+    "h1_count": null
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "jobs",
+   "domain": "jooble.org",
+   "tranco_rank": 6338,
+   "url": "https://jooble.org/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Jooble — 2.932.000+ current vacancies — Jobs in USA",
+    "desc": "Explore all the current vacancies from all the top employers and the leading job boards in USA and abroad. 2.932.000+ new current vacancies. Competitive salary. Full-time, temporary, and part-time jobs. Job email alerts. Free, fast and easy way find a job.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "jobs",
+   "domain": "talent.com",
+   "tranco_rank": 13985,
+   "url": "https://talent.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Talent.com: Wyszukiwanie ofert pracy | Znajdź oferty pracy w Twojej okolicy",
+    "desc": "Znajdź oferty pracy, wynagrodzenie i informacje o firmie na Talent.com. Odkryj swoją kolejną karierę już dziś. Poszukiwanie pracy zaczyna się tutaj!",
+    "h1_count": 1,
+    "images": 0,
+    "missing_alt": 0,
+    "links": 21
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "neuvoo.com",
+   "tranco_rank": 328381,
+   "url": "https://neuvoo.com/",
+   "ai": {
+    "http": 404,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 400,
+    "title": null,
+    "desc": null,
+    "h1_count": null
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "jobs",
+   "domain": "seek.com.au",
+   "tranco_rank": 13450,
+   "url": "https://seek.com.au/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 400,
+    "title": null,
+    "desc": null,
+    "h1_count": null
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "jobs",
+   "domain": "reed.co.uk",
+   "tranco_rank": 19950,
+   "url": "https://reed.co.uk/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": null,
+    "desc": null,
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "jobs",
+   "domain": "totaljobs.com",
+   "tranco_rank": 18667,
+   "url": "https://totaljobs.com/",
+   "ai": {
+    "http": null,
+    "error": "ReadTimeout",
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Jobs are our job | Totaljobs",
+    "desc": "At Totaljobs you're free to find the right job. Search 140000 jobs in the UK. Why not find the right job, right now? It’s waiting for you.",
+    "h1_count": 3
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "jobs",
+   "domain": "cv-library.co.uk",
+   "tranco_rank": 26217,
+   "url": "https://cv-library.co.uk/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Job Search - Find 138,562 UK jobs on CV-Library",
+    "desc": "Start your job search with 138,562 live UK vacancies on award-winning CV-Library. Register your CV and find local jobs near you today!",
+    "h1_count": 1,
+    "images": 20,
+    "missing_alt": 5,
+    "links": 374
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "jobsite.co.uk",
+   "tranco_rank": 46202,
+   "url": "https://jobsite.co.uk/",
+   "ai": {
+    "http": null,
+    "error": "ReadTimeout",
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Find 1000s of UK Jobs. Start your job search with Jobsite UK",
+    "desc": "Search 1000's of UK Jobs and Apply Online Today! Search 40,000+ UK Jobs · Award Winning Job Board · UK #1 Leading Job Board",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "jobs",
+   "domain": "stepstone.de",
+   "tranco_rank": 13827,
+   "url": "https://stepstone.de/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Jobs sind unser Job | Stepstone",
+    "desc": "Freiheit ist, den richtigen Job zu finden. Top Arbeitgeber. Kostenlose Jobsuche. Mehr als 150.000 aktuelle Jobs. Bei Stepstone findet jeder den richtigen Job.",
+    "h1_count": 3,
+    "images": 174,
+    "missing_alt": 0,
+    "links": 134
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "xing.com",
+   "tranco_rank": 1025,
+   "url": "https://xing.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "XING - Finde den Job, der zu Dir passt. Oder lass Dich finden!",
+    "desc": "Ãber 1 Mio. Jobs â 20.000 RecruiterÂ·innen â Gehaltsangaben â Arbeitgeber-Bewertungen. Definiere Deine Job-WÃ¼nsche und mach Dein XING!",
+    "h1_count": 1,
+    "images": 59,
+    "missing_alt": 58,
+    "links": 200
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "workday.com",
+   "tranco_rank": 6324,
+   "url": "https://workday.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "The Enterprise AI Platform for HR, Finance, and IT | Workday",
+    "desc": "Experience a new way to work with Sana and agentic AI from Workday.",
+    "h1_count": 1,
+    "images": 27,
+    "missing_alt": 8,
+    "links": 265
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "icims.com",
+   "tranco_rank": 6919,
+   "url": "https://icims.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "ICIMS | Enterprise Recruiting Software & AI-Powered Applicant Tracking System",
+    "desc": "ICIMS is a leading talent acquisition platform offering AI-powered applicant tracking, candidate engagement, onboarding, employer branding, and career site software to help organizations hire top talent at scale.",
+    "h1_count": 1,
+    "images": 54,
+    "missing_alt": 26,
+    "links": 234
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "bamboohr.com",
+   "tranco_rank": 7943,
+   "url": "https://bamboohr.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "BambooHR: The Complete HR Software for People, Payroll & Benefits",
+    "desc": "BambooHR makes it easy to simplify HR, with award-winning solutions for everything from hire to retire. Learn more with a free demo today.",
+    "h1_count": 1,
+    "images": 27,
+    "missing_alt": 27,
+    "links": 23
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "gusto.com",
+   "tranco_rank": 12006,
+   "url": "https://gusto.com/",
+   "ai": {
+    "http": 403,
+    "error": null,
+    "title": null,
+    "desc": null,
+    "h1_count": null,
+    "images": null,
+    "missing_alt": null,
+    "links": null
+   },
+   "local": "blocked",
+   "api": {
+    "http": 200,
+    "title": "Gusto | Online HR Services: Payroll, Benefits and everything else",
+    "desc": "Gusto | Gusto offers fully integrated online HR services: payroll, benefits and everything else.",
+    "h1_count": 1
+   },
+   "silent_fields": [],
+   "outcome": "blocked"
+  },
+  {
+   "category": "jobs",
+   "domain": "rippling.com",
+   "tranco_rank": 14348,
+   "url": "https://rippling.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Rippling: #1 Workforce Management System | HR, IT, Finance",
+    "desc": "Rippling eliminates the friction from running a business, combining HR, IT, and Finance apps on a unified data platform.",
+    "h1_count": 1,
+    "images": 40,
+    "missing_alt": 1,
+    "links": 156
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "deel.com",
+   "tranco_rank": 30231,
+   "url": "https://deel.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Deel | Global Payroll, Compliance, HR Solutions | HRIS",
+    "desc": "Hire, pay, and manage teams in 150+ countries with Deel. Run global payroll, ensure compliance, and streamline HR operations—all on one powerful platform.",
+    "h1_count": 1,
+    "images": 102,
+    "missing_alt": 14,
+    "links": 90
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "remote.com",
+   "tranco_rank": 37635,
+   "url": "https://remote.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Global Employment Infrastructure | EOR, Payroll & Compliance, Worldwide | Remote",
+    "desc": "The intelligent infrastructure for global employment. EOR, global payroll, contractor management, and compliant payments — worldwide, on one system of record.",
+    "h1_count": 1,
+    "images": 71,
+    "missing_alt": 15,
+    "links": 142
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "remoteok.com",
+   "tranco_rank": 44652,
+   "url": "https://remoteok.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "Remote Jobs in Programming, Design, Sales and more #OpenSalaries",
+    "desc": "Looking for a remote job? Remote OK® is the #1 Remote Job Platform and has 1,137,289+ remote jobs as a Developer, Designer, Copywriter, Customer Support Rep, Sales Professional, Project Manager and more! Find a career where you can work remotely from anywhere.",
+    "h1_count": 0,
+    "images": 7,
+    "missing_alt": 1,
+    "links": 50
+   },
+   "local": "data",
+   "api": {
+    "http": 200,
+    "title": "Remote Jobs in Programming, Design, Sales and more #OpenSalaries",
+    "desc": "Looking for a remote job? Remote OK® is the #1 Remote Job Platform and has 1,137,289+ remote jobs as a Developer, Designer, Copywriter, Customer Support Rep, Sales Professional, Project Manager and more! Find a career where you can work remotely from anywhere.",
+    "h1_count": 0
+   },
+   "silent_fields": [],
+   "outcome": "data"
+  },
+  {
+   "category": "jobs",
+   "domain": "weworkremotely.com",
+   "tranco_rank": 33107,
+   "url": "https://weworkremotely.com/",
+   "ai": {
+    "http": 200,
+    "error": null,
+    "title": "We Work Remotely: Advanced Remote Job Search",
+    "desc": "Advanced job search for We Work Remotely, allowing you to search and refine jobs across programming, marketing, customer service, etc. Find your next remote career.",
+    "h1_count": 1,
+    "images": 239,
+    "missing_alt": 221,
+    "links": 511
+   },
+   "local": "data",
+   "silent_fields": [],
+   "outcome": "data"
+  }
+ ]
+}

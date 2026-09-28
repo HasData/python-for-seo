@@ -1,11 +1,10 @@
-![Python](https://img.shields.io/badge/python-3.11+-blue)
-![HasData](https://img.shields.io/badge/powered%20by-HasData-orange)
+# SEO Research Toolkit
 
-# SEO Research Toolkit 
+![Python 3.11 or newer badge](https://img.shields.io/badge/python-3.11+-blue) ![Powered by HasData badge](https://img.shields.io/badge/powered%20by-HasData-orange)
 
-[![HasData_bannner](media/banner.png)](https://hasdata.com/)
+[![HasData, the SERP API the toolkit calls](media/banner.png)](https://hasdata.com/)
 
-A comprehensive Python-based SEO research toolkit powered by HasData API. This collection of tools helps SEO professionals conduct keyword research, competitive analysis, SERP intelligence, and content gap analysis at scale.
+Seven Python tools for SEO research, powered by the HasData API. They cover keyword research, competitive analysis, SERP intelligence, and content gap analysis at scale.
 
 ## Table of Contents
 
@@ -30,7 +29,9 @@ A comprehensive Python-based SEO research toolkit powered by HasData API. This c
 
 ## Features
 
-![Toolkit Manager](media/manager.png)
+![Menu of the toolkit manager listing the seven tools with configure and API-key options](media/manager.png)
+
+Each tool runs on its own or through the manager menu.
 
 ### 1. **Google Suggest Harvester**
 Extract thousands of long-tail keyword variations using Google's autocomplete API.
@@ -85,6 +86,8 @@ Track domain visibility in Google's AI-generated search summaries.
 
 ## 📦 Installation
 
+The setup is a clone, a pip install, and an API key.
+
 ### Prerequisites
 - Python 3.11 or higher
 - HasData API key ([Get one here](https://hasdata.com))
@@ -120,7 +123,11 @@ python seo_manager.py
 # Select option [8] to configure
 ```
 
+The key is stored once and reused by every tool.
+
 ## Usage
+
+Configure before the first run.
 
 > ⚠️ **IMPORTANT: CONFIGURATION REQUIRED BEFORE USE**
 >
@@ -139,6 +146,9 @@ python seo_manager.py
 
 
 ### Interactive Mode (Recommended)
+
+The menu covers running and configuring every tool.
+
 ```bash
 python seo_manager.py
 ```
@@ -146,12 +156,17 @@ python seo_manager.py
 This launches a menu-driven interface where you can select and run any tool.
 
 ### Direct Tool Execution
+
+The manager also takes the tool number as an argument.
+
 ```bash
 # Run specific tool by number
 python seo_manager.py 1  # Google Suggest Harvester
 python seo_manager.py 2  # Trends Analyzer
 # ... etc
 ```
+
+Numbers follow the menu order.
 
 ### Individual Scripts
 Each tool can also be run independently:
@@ -165,13 +180,17 @@ python content_gap_analyzer.py
 python ai_overview_monitor.py
 ```
 
+Outputs land next to the scripts as CSV or JSON.
+
 ---
 
 ## ⚙️ Configuration
 
+Settings live in the scripts and in the manager menu.
+
 ### Tool-Specific Settings
 
-Each tool has configurable parameters at the top of the script:
+Each tool keeps its parameters in a block at the top of the script.
 
 **Google Suggest Harvester**
 ```python
@@ -221,14 +240,24 @@ KEYWORDS = ["keyword1", "keyword2", ...]
 
 ## Output Examples
 
+What a finished run prints, tool by tool.
+
 ### Google Suggest Harvester
+
+The harvester reports speed and yield.
+
 ```
 Finished in 45.23 seconds. Average Speed: 12.34 req/s
 Done. Collected 1847 unique keywords.
 Saved to long_tail_keywords_hasdata.csv
 ```
 
+Around twelve requests a second is normal on the default settings.
+
 ### Trends Breakout Analyzer
+
+Rising queries arrive sorted by growth.
+
 ```
 --- Rising Queries (The Opportunity) ---
 [Growth: Breakout] mushroom coffee benefits
@@ -236,7 +265,12 @@ Saved to long_tail_keywords_hasdata.csv
 ...
 ```
 
+Breakout marks growth past the 5000% mark.
+
 ### PAA Tree Builder
+
+The tree nests questions by depth.
+
 ```
 - coffee
     - What are the health benefits of coffee?
@@ -244,7 +278,12 @@ Saved to long_tail_keywords_hasdata.csv
         - Does coffee help with weight loss?
 ```
 
+Depth is configurable per run.
+
 ### SERP Intent Classifier
+
+The verdict names the dominant format and the move.
+
 ```
 Dominant Type: Informational (Blog) (60.0%)
 Action: Create a long-form Guide or Blog Post.
@@ -256,6 +295,8 @@ More output examples in our article: [Python for SEO](https://hasdata.com/blog/p
 
 ## Troubleshooting
 
+The failures below account for most first runs.
+
 ### Common Issues
 
 **"No trend data found"**
@@ -264,7 +305,7 @@ More output examples in our article: [Python for SEO](https://hasdata.com/blog/p
 
 **"AI Overview not triggered"**
 - AI Overviews are region-specific (US has highest coverage)
-- Try different device types: desktop vs mobile
+- Try the other device type, desktop against mobile
 
 **Content extraction returns empty text**
 - Enable JS rendering: `jsRendering: True`
@@ -273,7 +314,12 @@ More output examples in our article: [Python for SEO](https://hasdata.com/blog/p
 
 ## Advanced Workflows
 
-### Workflow 1: New Topic Research
+The tools chain into three research routes.
+
+### New Topic Research
+
+From a rising topic to a content plan.
+
 ```
 1. Trends Breakout Analyzer → Find rising topics
 2. Google Suggest Harvester → Extract long-tail variations
@@ -281,21 +327,37 @@ More output examples in our article: [Python for SEO](https://hasdata.com/blog/p
 4. SERP Intent Classifier → Determine content type
 ```
 
-### Workflow 2: Content Optimization
+The harvester output feeds straight into step three.
+
+### Content Optimization
+
+From a keyword set to the gaps in a page.
+
 ```
 1. SERP Similarity Matrix → Group related keywords
 2. Content Gap Analyzer → Identify missing topics
 3. AI Overview Monitor → Track visibility changes
 ```
 
-### Workflow 3: Competitive Intelligence
+The monitor closes the loop after publication.
+
+### Competitive Intelligence
+
+From a competitor SERP to a positioning angle.
+
 ```
 1. SERP Intent Classifier → Analyze competitor strategies
 2. Content Gap Analyzer → Reverse-engineer top pages
 3. SERP Similarity Matrix → Find unique positioning opportunities
 ```
 
+Each route reads the previous step's output files, no glue code needed.
+
 ---
+
+## The AI-Script Study
+
+`studies/ai-script-outcomes/` holds the measurement behind the article's warning about copy-pasting AI-generated SEO scripts. The script Google's AI Overview serves for "python script for seo" ran unchanged against 200 live domains from the Tranco list (`ZJQ6G`, taken 2026-09-02). It produced usable data on 108 of them, 84 refused outright, and 8 returned HTTP 200 with the audit reporting missing tags the rendered page actually carries. Rerouting the failed domains through a rendering API recovered 66 of the blocks, and 12 still audited the wrong fields. The JSON carries every per-domain row.
 
 ## Acknowledgments
 
