@@ -2,7 +2,7 @@
 
 ![Python 3.11 or newer badge](https://img.shields.io/badge/python-3.11+-blue) ![Powered by HasData badge](https://img.shields.io/badge/powered%20by-HasData-orange)
 
-[![HasData, the SERP API the toolkit calls](media/banner.png)](https://hasdata.com/)
+[![HasData, the SERP API the toolkit calls](media/banner.png)](https://hasdata.com/?utm_source=github&utm_medium=syndication&utm_campaign=python-for-seo&utm_content=python-for-seo-readme)
 
 Seven Python tools for SEO research, powered by the HasData API. They cover keyword research, competitive analysis, SERP intelligence, and content gap analysis at scale.
 
@@ -90,7 +90,7 @@ The setup is a clone, a pip install, and an API key.
 
 ### Prerequisites
 - Python 3.11 or higher
-- HasData API key ([Get one here](https://hasdata.com))
+- HasData API key ([Get one here](https://hasdata.com?utm_source=github&utm_medium=syndication&utm_campaign=python-for-seo&utm_content=python-for-seo-readme))
 
 ### Setup
 
@@ -289,7 +289,7 @@ Dominant Type: Informational (Blog) (60.0%)
 Action: Create a long-form Guide or Blog Post.
 ```
 
-More output examples in our article: [Python for SEO](https://hasdata.com/blog/python-for-seo)
+More output examples in our article: [Python for SEO](https://hasdata.com/blog/python-for-seo?utm_source=github&utm_medium=syndication&utm_campaign=python-for-seo&utm_content=python-for-seo-readme)
 
 ---
 
@@ -369,8 +369,8 @@ Each route reads the previous step's output files, no glue code needed.
 
 ## Support
 
-- **Documentation**: [HasData API Docs](https://docs.hasdata.com)
-- **Full Article**: [Python for SEO](https://hasdata.com/blog/python-for-seo)
+- **Documentation**: [HasData API Docs](https://docs.hasdata.com?utm_source=github&utm_medium=syndication&utm_campaign=python-for-seo&utm_content=python-for-seo-readme)
+- **Full Article**: [Python for SEO](https://hasdata.com/blog/python-for-seo?utm_source=github&utm_medium=syndication&utm_campaign=python-for-seo&utm_content=python-for-seo-readme)
 
 ---
 
